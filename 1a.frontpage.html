@@ -9,6 +9,14 @@
 </head>
 
 <body>
+    <div class="sidebar" id="sidebar">
+        <span class="close-btn" onclick="closeMenu()">✖</span>
+
+        <a href="#">HOME</a>
+        <a href="#">FIRST-AID</a>
+        <a href="#">LOCAL PHARMACIES</a>
+        <a href="#">CONTACT</a>
+    </div>
     <div class="main">
         <div class="navbar">
             <div class="logo-container">
@@ -60,6 +68,15 @@
     </div>
 
     </div>
+     <script>
+        function openMenu(){
+            document.getElementById("sidebar").style.left = "0";
+        }
+
+        function closeMenu(){
+            document.getElementById("sidebar").style.left = "-250px";
+        }
+    </script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 
