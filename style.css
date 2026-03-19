@@ -12,9 +12,35 @@ body{
 .secondpage{
     margin: 20px;
 }
-.disclaimer{
-    color: rgb(216, 23, 23)
+.secondpage h1:hover{
+     color: #ff7200;
 }
+
+.disclaimer {
+    background-color: #fff3cd;
+    color: #f1201c;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+}
+
+.disclaimer-text {
+    display: inline-block;
+    padding: 10px;
+    animation: moveLeft 15s linear infinite;
+}
+
+/* Right → Left Animation */
+@keyframes moveLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 .search{
     margin-top: 10px;
     height: 10%;
@@ -61,3 +87,7 @@ body{
 }
 .footer h4{margin-top: 5px;}
 .footer p{margin-top: 5px;}
+.footer:hover{
+    color: #ff7200;
+}
+
