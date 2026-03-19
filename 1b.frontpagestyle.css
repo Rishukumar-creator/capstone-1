@@ -1,291 +1,211 @@
-* {
-    margin: 0;
-    padding: 0;
-
+*{
+    margin:0;
+    padding:0;
 }
 
-.main {
-    width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5) 50%), url(https://wallpapers.com/images/featured/medical-background-cjge7e89adg6ub8x.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 120vh;
-}
-.menu-icon ion-icon {
-    color: #faf7f7;           /* Icon ka color white */
-    font-size: 40px;       /* Icon ka size */
-    cursor: pointer;       /* Mouse le jane par hath ka nishan aaye */
-    margin-right: 20px;    /* Logo se thodi doori */
-    transition: 0.3s ease;
+
+.main{
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.jpeg);
+    background-position:center;
+    background-size:cover;
+    height:109vh;
 }
 
-.menu-icon ion-icon:hover {
-    color: #00e5ff;        /* Hover karne par orange color */
-    margin-top: 40px;
+
+.menu-icon ion-icon{
+    color:#fff;
+    font-size:40px;
+    cursor:pointer;
+    margin-right:20px;
+    transition:0.3s;
+}
+.menu-icon ion-icon:hover{
+    color:#00e5ff;
 }
 
-.navbar {
 
-    width: 100%;
-    height: 100; 
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start;    
-    padding-top: 20px 0 0 20px;
+.navbar{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
 }
 
-.icon {
-    width: 100%;
-    display: flex;
-    text-align: center;
-    justify-content:flex-start;
-    margin-bottom: 15px;
-}
-.logo-container{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-}
+
 .logo{
-    color: #00fff2;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 550px;
+    color:#00fff2;
+    font-size:35px;
+    margin-left:550px;
 }
-.menu,.search{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
+
+
 .menu-icon{
-    margin-right: 100px;
-    margin-left: 20px;
+    margin-left:20px;
 }
 
 
-.menu {
-    width: 100%; 
-    margin-bottom: 25px;}
-
-.menu ul {
-    display: flex;
-    justify-content: center; 
-    list-style: none;
-    padding: 0;
+.menu{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
 }
-
-.menu ul li {
-    margin: 0 40px;
+.menu ul{
+    display:flex;
+    list-style:none;
 }
-
-.menu ul li a {
-    text-decoration: none;
-    color: #fff !important;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 22px; 
-    transition: 0.4s ease;
+.menu ul li{
+    margin:0 40px;
 }
-
-.menu ul li a:hover {
-    color: #ff7200 !important;
+.menu ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size:22px;
+    font-weight:bold;
+}
+.menu ul li a:hover{
+    color:#ff7200;
 }
 
 
-.search {
-    width: 100%;
-    display: flex;
-    justify-content: center; 
-    float: none; 
+.search{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+.srch{
+    width:400px;
+    height:40px;
+    background:#000;
+    border:1px solid #ff7200;
+    color:#fff;
+    border-right:none;
+    padding:10px;
+}
+.btn{
+    width:100px;
+    height:40px;
+    background:#ff7200;
+    border:none;
+    color:#fff;
+    cursor:pointer;
 }
 
-.srch {
-    width: 400px; 
-    height: 40px;
-    background: #000;
-    border: 1px solid #ff7200;
-    color: #fff;
-    border-right: none;
-    font-size: 16px;
-    padding: 10px;
-    border-bottom-left-radius: 11px;
-    border-top-left-radius: 11px;
+
+.content{
+    width:1200px;
+    margin:auto;
+    color:white;
+    margin-top:100px;
+}
+.content h1{
+    font-size:50px;
+    margin-top:9%;
+}
+.content span{
+    color:#ff7200;
+    font-size:60px;
 }
 
-.btn {
-    width: 100px;
-    height: 40px;
-    background: #ff7200;
-    border: 1px solid #ff7200;
-    color: #fff;
-    font-size: 15px;
-    cursor: pointer;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.btn:focus {
-    outline: none;
-}
 
-.srch:focus {
-    outline: none;
+.cn{
+    width:160px;
+    height:40px;
+    background:#ff7200;
+    border:none;
+    margin-top:20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.cn a{
+    text-decoration:none;
+    color:#000;
 }
 
-.content {
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: white;
-    position: relative;
-    margin-top: 100px;
+
+.form{
+    width:250px;
+    height:380px;
+    background:rgba(0,0,0,0.8);
+    position:absolute;
+    top:250px;
+    left:900px;
+    border-radius:20px;
+    padding:25px;
+}
+.form h2{
+    text-align:center;
+    color:orange;
+    background:#fff;
+    border-radius:10px;
+    padding:8px;
+}
+.form input{
+    width:100%;
+    height:35px;
+    margin-top:20px;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid #ff7200;
+    color:#fff;
+}
+.btnn{
+    width:100%;
+    height:40px;
+    background:#ff7200;
+    border:none;
+    margin-top:20px;
+    border-radius:10px;
+    color:#fff;
+}
+.btnn:hover{
+    background:#fff;
+    color:#ff7200;
+}
+.skip-btn{
+    width:100%;
+    height:40px;
+    background:transparent;
+    border:1px solid #ff7200;
+    margin-top:10px;
+    border-radius:10px;
+    cursor:pointer;
 }
 
-.content.par {
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: Arial;
-    letter-spacing: 1.2px;
-    line-height: 30px;
-
+.skip-btn a{
+    text-decoration:none;
+    color:#ff7200;
+    font-weight:bold;
 }
 
-.content h1 {
-    font-family: 'Times New Roman';
-    font-size: 50px;
-    padding-left: 20px;
-    margin-top: 9%;
-    letter-spacing: 2px;
-
+.skip-btn:hover{
+    background:#00c3ff;
 }
 
-.content.cn {
-    width: 160px;
-    height: 40px;
-    background: #ff7200;
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .4s ease;
+.skip-btn:hover a{
+    color:#000;
 }
 
-.content.cn a {
-    text-decoration: none;
-    color: #000;
-    transition: .3s ease;
+.icon{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+.icon a{
+    color:#fff;
+}
+.icon ion-icon{
+    font-size:25px;
+    margin:5px;
+}
+.icon ion-icon:hover{
+    color:#ff7200;
 }
 
-.cn:hover {
-    background-color: #fff;
-}
 
-.content span {
-    color: #ff7200;
-    font-size: 60px;
-}
 
-.form {
-    width: 247px;
-    height: 383px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
-    position: absolute;
-    top: -55px;
-    left: 898px;
-    border-radius: 21px;
-    padding: 32px;
-}
-
-.form h2 {
-    width: 220px;
-    font-family: sans-serif;
-    text-align: center;
-    color: orange;
-    font-size: 22px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
-
-}
-
-.form input {
-    width: 240px;
-    height: 35px;
-    background: transparent;
-    border-bottom: 1px solid #ff7200;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    font-family: sans-serif;
-}
-
-.btnn {
-    width: 240px;
-    height: 40px;
-    background: #ff7200;
-    border: none;
-    margin-top: 30px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: #fff;
-    transition: 0.4s ease;
-}
-
-.btnn:hover {
-    background: #fff;
-    color: #ff7200;
-
-}
-
-.btnn a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-}
-
-.form.link {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding-top: 20px;
-    text-align: center;
-
-}
-
-.form.link a {
-    text-decoration: none;
-    color: #ff7200;
-}
-
-.liw {
-    padding-top: 15px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-.icon a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.icon ion-icon {
-    color: #fff;
-    font-size: 30px;
-    padding-left: 14px;
-    padding-top: 5px;
-    transition: o.3s ease;
-}
-
-.icon ion-icon:hover {
-    color: #ff7200;
-}
 .sidebar{
     position:fixed;
     top:0;
