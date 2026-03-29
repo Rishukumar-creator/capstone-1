@@ -6,10 +6,10 @@
 
 .main{
     width:100%;
-    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.jpeg);
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("https://wallpapers.com/images/featured/medical-background-cjge7e89adg6ub8x.jpg");
     background-position:center;
     background-size:cover;
-    height:109vh;
+    height:115vh;
 }
 
 
@@ -37,6 +37,7 @@
     color:#00fff2;
     font-size:35px;
     margin-left:550px;
+    margin-top: 20px;
 }
 
 
