@@ -41,7 +41,7 @@ body{
     }
 }
 
-.search{
+#search{
     margin-top: 10px;
     height: 10%;
     width: 100%;
@@ -50,7 +50,7 @@ body{
     justify-content: space-between
     
 }
-.option{height: 20px;width: 94%;}
+#option{height: 20px;width: 94%;}
 .card{
     background-color: rgb(185, 185, 179);
     color: black;
@@ -67,6 +67,12 @@ body{
     justify-content: space-around;
 }
 .grid2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.grid3{
     margin-top: 30px;
     display: flex;
     align-items: center;
@@ -162,7 +168,7 @@ body{
 
 
 .image-box3{
-  height:150px;
+  height:130px;
   margin-bottom:20px;
   border-radius:12px;
   background:linear-gradient(135deg,#a6d8ff,#5aa9ff);
