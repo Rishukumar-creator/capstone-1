@@ -54,8 +54,8 @@ window.onload = function(){
                 "Step 7:Use AED (if available)",
                 "Turn it on and follow voice instructions",
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/cpr_adult_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/cpr_adult_img2.png"
         },
 
         Choking: {
@@ -82,8 +82,8 @@ window.onload = function(){
                 "Start CPR immediately",
                 "Check mouth for object before giving breaths",
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/choking_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/choking_img2.png"
         },
         Burns : {
             steps:[
@@ -101,8 +101,8 @@ window.onload = function(){
                 "Step 6:Avoid Breaking Blisters",
                 "Let them heal naturally to prevent infection",
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/burns_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/burns_img2.png"
         },
         Severe_Bleeding: {
             steps:[
@@ -126,8 +126,8 @@ window.onload = function(){
                 "Watch for shock (pale skin, weakness, fast breathing)",
                 "Keep them laying down and calm",
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/bleeding_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/bleeding_img2.png"
         },
         CPR_Infant : {
             steps:[
@@ -152,8 +152,8 @@ window.onload = function(){
                 "Step 7:Use AED (if available)",
                 "Use pediatric pads if possible",
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/cpr_infant_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/cpr_infant_img2.png"
         },
         Nosebleed : {
             steps:[
@@ -163,8 +163,8 @@ window.onload = function(){
                 "Give rescue breaths",
                 "Continue until help arrives"
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/nosebleed_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/nosebleed_img2.png"
         },
         Diziness : {
             steps:[
@@ -174,8 +174,8 @@ window.onload = function(){
                 "Give rescue breaths",
                 "Continue until help arrives"
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/diziness_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/diziness_img2.png"
         },
         Low_Blood_Sugar: {
             steps:[
@@ -185,8 +185,8 @@ window.onload = function(){
                 "Give rescue breaths",
                 "Continue until help arrives"
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/lowbloodsugar_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/lowbloodsugar_img2.png"
         },
         Blisters : {
             steps:[
@@ -207,8 +207,8 @@ window.onload = function(){
                 "Give rescue breaths",
                 "Continue until help arrives"
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/asthma_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/asthma_img2.png"
         },
         Nausea : {
             steps:[
@@ -229,8 +229,8 @@ window.onload = function(){
                 "Give rescue breaths",
                 "Continue until help arrives"
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/stroke_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/stroke_img2.png"
         },
         Poisoning : {
             steps:[
@@ -240,8 +240,8 @@ window.onload = function(){
                 "Give rescue breaths",
                 "Continue until help arrives"
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/poison_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/poison_img2.png"
         },
         Snake_Bite : {
             steps:[
@@ -251,8 +251,8 @@ window.onload = function(){
                 "Give rescue breaths",
                 "Continue until help arrives"
             ],
-            img1: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            img2: "https://plus.unsplash.com/premium_photo-1679047666642-b8d8e0202186?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img1: "firstaid_images/firstaid_steps_images/sankebite_img1.png",
+            img2: "firstaid_images/firstaid_steps_images/snakebite_img2.png"
         },
         Hypothermia_and_Hyperthermia: {
             steps:[
